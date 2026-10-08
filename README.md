@@ -91,7 +91,7 @@ in the same plain register. No photograph is used; the only drawings are the stu
   card's ground; it is decorative and clipped by the box, and hidden in a
   square under 90px.
 - Body copy appears from 200px of height, the fuller passage from 320px,
-  and a list of bullets from 400px, so a hero square carries the
+  and a list of bullets from 480px, so a hero square carries the
   reference's whole list and a small square its first line.
 - Controls that would sign in, pay or download say so and do nothing.
 - Light is the reference's; dark is the study's, the same values turned

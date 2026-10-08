@@ -152,8 +152,8 @@ main { min-width: 0; }
 @container (max-height: 320px) { .box__body--long { display: none; } }
 @container (min-height: 320.1px) { .box__body--short:not(.box__body--untall) { display: none; } }
 /* A list of bullets needs more room than a sentence: it appears only in a tall square. */
-@container (max-height: 400px) { .box__body--tall { display: none; } }
-@container (min-height: 400.1px) { .box__body--untall { display: none; } }
+@container (max-height: 480px) { .box__body--tall { display: none; } }
+@container (min-height: 480.1px) { .box__body--untall { display: none; } }
 @container (max-width: 110px) or (max-height: 90px) { .box__body, .box__foot, .box__source { display: none; } }
 @container (max-width: 64px) or (max-height: 64px) { .box__label { display: none; } }
 
