@@ -1,0 +1,199 @@
+{
+ "tiles": [
+  {
+   "text": "Make a same-day payment or schedule paym",
+   "x": 39,
+   "y": 1174,
+   "w": 336,
+   "h": 144
+  },
+  {
+   "text": "You can request an account transcript by",
+   "x": 39,
+   "y": 2346,
+   "w": 336,
+   "h": 96
+  },
+  {
+   "text": "If you're a business, or an individual w",
+   "x": 39,
+   "y": 2442,
+   "w": 336,
+   "h": 96
+  }
+ ],
+ "url": "https://www.irs.gov/payments/online-account-for-individuals",
+ "title": "Online account for individuals | Internal Revenue Service",
+ "width": 390,
+ "height": 3942,
+ "headings": [
+  {
+   "tag": "H2",
+   "text": "Help Menu Mobile",
+   "x": 253,
+   "y": 72,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H1",
+   "text": "Online account for individuals",
+   "x": 15,
+   "y": 143,
+   "w": 360,
+   "h": 112
+  },
+  {
+   "tag": "H3",
+   "text": "More In File",
+   "x": 23,
+   "y": 373,
+   "w": 344,
+   "h": 30
+  },
+  {
+   "tag": "H2",
+   "text": "New: Submit Form 4547, Trump Account Election(s)",
+   "x": 91,
+   "y": 470,
+   "w": 263,
+   "h": 41
+  },
+  {
+   "tag": "H2",
+   "text": "Access tax records",
+   "x": 15,
+   "y": 842,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Make and view payments",
+   "x": 15,
+   "y": 1138,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "View or create payment plans",
+   "x": 15,
+   "y": 1420,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "View your balance",
+   "x": 15,
+   "y": 1620,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Submit forms",
+   "x": 15,
+   "y": 1700,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Manage profile",
+   "x": 15,
+   "y": 1828,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "View authorizations",
+   "x": 15,
+   "y": 1980,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Accessibility",
+   "x": 15,
+   "y": 2132,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Other ways to find your account information",
+   "x": 15,
+   "y": 2284,
+   "w": 360,
+   "h": 52
+  },
+  {
+   "tag": "H3",
+   "text": "Related",
+   "x": 15,
+   "y": 2592,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Need to pay?",
+   "x": 36,
+   "y": 2808,
+   "w": 318,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "What if I can’t pay?",
+   "x": 36,
+   "y": 2950,
+   "w": 318,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "What if I don't pay?",
+   "x": 36,
+   "y": 3116,
+   "w": 318,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Footer Navigation",
+   "x": 19,
+   "y": 3503,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H2",
+   "text": "Subfooter",
+   "x": 148,
+   "y": 3867,
+   "w": 1,
+   "h": 1
+  }
+ ],
+ "images": [
+  {
+   "alt": "Home",
+   "x": 14,
+   "y": 65,
+   "w": 86,
+   "h": 30
+  },
+  {
+   "alt": "Home",
+   "x": 155,
+   "y": 3826,
+   "w": 80,
+   "h": 28
+  }
+ ]
+}

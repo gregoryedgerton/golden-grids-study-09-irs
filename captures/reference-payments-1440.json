@@ -1,0 +1,213 @@
+{
+ "tiles": [
+  {
+   "text": "OUR AGENCY About IRS Careers Financial a",
+   "x": 150,
+   "y": 2134,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "KNOW YOUR RIGHTS Taxpayer Bill of Rights",
+   "x": 383,
+   "y": 2134,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "RESOLVE AN ISSUE IRS Notices and Letters",
+   "x": 616,
+   "y": 2134,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "LANGUAGES Español 中文 (简体) 中文 (繁體) 한국어 Pу",
+   "x": 848,
+   "y": 2134,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "RELATED SITES U.S. Treasury Treasury Ins",
+   "x": 1081,
+   "y": 2134,
+   "w": 209,
+   "h": 340
+  }
+ ],
+ "url": "https://www.irs.gov/payments",
+ "title": "Payments | Internal Revenue Service",
+ "width": 1440,
+ "height": 2673,
+ "headings": [
+  {
+   "tag": "H2",
+   "text": "Information Menu",
+   "x": 249,
+   "y": 50,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H2",
+   "text": "Main navigation",
+   "x": 149,
+   "y": 104,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H1",
+   "text": "Make a payment",
+   "x": 150,
+   "y": 232,
+   "w": 1140,
+   "h": 56
+  },
+  {
+   "tag": "H2",
+   "text": "Pay individual taxes by bank account",
+   "x": 443,
+   "y": 510,
+   "w": 848,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Pay in your IRS Account",
+   "x": 468,
+   "y": 619,
+   "w": 247,
+   "h": 36
+  },
+  {
+   "tag": "H3",
+   "text": "Pay as guest",
+   "x": 903,
+   "y": 619,
+   "w": 130,
+   "h": 36
+  },
+  {
+   "tag": "H2",
+   "text": "All payment methods",
+   "x": 443,
+   "y": 1151,
+   "w": 848,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Bank account",
+   "x": 468,
+   "y": 1258,
+   "w": 222,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Debit or credit card",
+   "x": 755,
+   "y": 1258,
+   "w": 222,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Digital wallet",
+   "x": 1043,
+   "y": 1258,
+   "w": 222,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Same-day wire",
+   "x": 468,
+   "y": 1404,
+   "w": 222,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Check or money order",
+   "x": 755,
+   "y": 1404,
+   "w": 222,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Cash",
+   "x": 1043,
+   "y": 1404,
+   "w": 222,
+   "h": 28
+  },
+  {
+   "tag": "H2",
+   "text": "If you can't pay now",
+   "x": 443,
+   "y": 1569,
+   "w": 848,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Pay over time",
+   "x": 443,
+   "y": 1649,
+   "w": 848,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Pay later",
+   "x": 443,
+   "y": 1797,
+   "w": 848,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Pay less",
+   "x": 443,
+   "y": 1877,
+   "w": 848,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Footer Navigation",
+   "x": 149,
+   "y": 2133,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H2",
+   "text": "Subfooter",
+   "x": 1098,
+   "y": 2638,
+   "w": 1,
+   "h": 1
+  }
+ ],
+ "images": [
+  {
+   "alt": "Home",
+   "x": 152,
+   "y": 48,
+   "w": 103,
+   "h": 36
+  },
+  {
+   "alt": "Home",
+   "x": 150,
+   "y": 2635,
+   "w": 80,
+   "h": 28
+  }
+ ]
+}

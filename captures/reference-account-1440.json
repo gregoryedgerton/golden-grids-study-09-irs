@@ -1,0 +1,234 @@
+{
+ "tiles": [
+  {
+   "text": "Individuals Who should file Steps to fil",
+   "x": 150,
+   "y": 372,
+   "w": 263,
+   "h": 685
+  },
+  {
+   "text": "Your information Tax record (transcript)",
+   "x": 150,
+   "y": 636,
+   "w": 263,
+   "h": 156
+  },
+  {
+   "text": "Make a same-day payment or schedule paym",
+   "x": 467,
+   "y": 956,
+   "w": 531,
+   "h": 120
+  },
+  {
+   "text": "OUR AGENCY About IRS Careers Financial a",
+   "x": 150,
+   "y": 2227,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "KNOW YOUR RIGHTS Taxpayer Bill of Rights",
+   "x": 383,
+   "y": 2227,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "RESOLVE AN ISSUE IRS Notices and Letters",
+   "x": 616,
+   "y": 2227,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "LANGUAGES Español 中文 (简体) 中文 (繁體) 한국어 Pу",
+   "x": 848,
+   "y": 2227,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "RELATED SITES U.S. Treasury Treasury Ins",
+   "x": 1081,
+   "y": 2227,
+   "w": 209,
+   "h": 340
+  }
+ ],
+ "url": "https://www.irs.gov/payments/online-account-for-individuals",
+ "title": "Online account for individuals | Internal Revenue Service",
+ "width": 1440,
+ "height": 2766,
+ "headings": [
+  {
+   "tag": "H2",
+   "text": "Information Menu",
+   "x": 249,
+   "y": 50,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H2",
+   "text": "Main navigation",
+   "x": 149,
+   "y": 104,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H1",
+   "text": "Online account for individuals",
+   "x": 150,
+   "y": 232,
+   "w": 1140,
+   "h": 56
+  },
+  {
+   "tag": "H2",
+   "text": "New: Submit Form 4547, Trump Account Election(s)",
+   "x": 519,
+   "y": 393,
+   "w": 458,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Access tax records",
+   "x": 443,
+   "y": 696,
+   "w": 555,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Make and view payments",
+   "x": 443,
+   "y": 920,
+   "w": 555,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "View or create payment plans",
+   "x": 443,
+   "y": 1154,
+   "w": 555,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "View your balance",
+   "x": 443,
+   "y": 1282,
+   "w": 555,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Submit forms",
+   "x": 443,
+   "y": 1362,
+   "w": 555,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Manage profile",
+   "x": 443,
+   "y": 1466,
+   "w": 555,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "View authorizations",
+   "x": 443,
+   "y": 1594,
+   "w": 555,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Accessibility",
+   "x": 443,
+   "y": 1722,
+   "w": 555,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Other ways to find your account information",
+   "x": 443,
+   "y": 1850,
+   "w": 555,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Related",
+   "x": 1027,
+   "y": 392,
+   "w": 262,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Need to pay?",
+   "x": 1048,
+   "y": 608,
+   "w": 220,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "What if I can’t pay?",
+   "x": 1048,
+   "y": 750,
+   "w": 220,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "What if I don't pay?",
+   "x": 1048,
+   "y": 940,
+   "w": 220,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Footer Navigation",
+   "x": 149,
+   "y": 2226,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H2",
+   "text": "Subfooter",
+   "x": 1098,
+   "y": 2731,
+   "w": 1,
+   "h": 1
+  }
+ ],
+ "images": [
+  {
+   "alt": "Home",
+   "x": 152,
+   "y": 48,
+   "w": 103,
+   "h": 36
+  },
+  {
+   "alt": "Home",
+   "x": 150,
+   "y": 2728,
+   "w": 80,
+   "h": 28
+  }
+ ]
+}

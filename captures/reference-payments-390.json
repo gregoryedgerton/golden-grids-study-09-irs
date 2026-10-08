@@ -1,0 +1,177 @@
+{
+ "tiles": [],
+ "url": "https://www.irs.gov/payments",
+ "title": "Payments | Internal Revenue Service",
+ "width": 390,
+ "height": 4015,
+ "headings": [
+  {
+   "tag": "H2",
+   "text": "Help Menu Mobile",
+   "x": 253,
+   "y": 72,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H1",
+   "text": "Make a payment",
+   "x": 15,
+   "y": 141,
+   "w": 360,
+   "h": 56
+  },
+  {
+   "tag": "H3",
+   "text": "More In Pay",
+   "x": 23,
+   "y": 307,
+   "w": 344,
+   "h": 30
+  },
+  {
+   "tag": "H2",
+   "text": "Pay individual taxes by bank account",
+   "x": 15,
+   "y": 569,
+   "w": 360,
+   "h": 52
+  },
+  {
+   "tag": "H3",
+   "text": "Pay in your IRS Account",
+   "x": 40,
+   "y": 752,
+   "w": 237,
+   "h": 72
+  },
+  {
+   "tag": "H3",
+   "text": "Pay as guest",
+   "x": 40,
+   "y": 1352,
+   "w": 130,
+   "h": 36
+  },
+  {
+   "tag": "H2",
+   "text": "All payment methods",
+   "x": 15,
+   "y": 1896,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Bank account",
+   "x": 40,
+   "y": 2027,
+   "w": 310,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Debit or credit card",
+   "x": 40,
+   "y": 2155,
+   "w": 310,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Digital wallet",
+   "x": 40,
+   "y": 2283,
+   "w": 310,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Same-day wire",
+   "x": 40,
+   "y": 2411,
+   "w": 310,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Check or money order",
+   "x": 40,
+   "y": 2539,
+   "w": 310,
+   "h": 28
+  },
+  {
+   "tag": "H3",
+   "text": "Cash",
+   "x": 40,
+   "y": 2667,
+   "w": 310,
+   "h": 28
+  },
+  {
+   "tag": "H2",
+   "text": "If you can't pay now",
+   "x": 15,
+   "y": 2798,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Pay over time",
+   "x": 15,
+   "y": 2902,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Pay later",
+   "x": 15,
+   "y": 3122,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H3",
+   "text": "Pay less",
+   "x": 15,
+   "y": 3202,
+   "w": 360,
+   "h": 26
+  },
+  {
+   "tag": "H2",
+   "text": "Footer Navigation",
+   "x": 19,
+   "y": 3576,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H2",
+   "text": "Subfooter",
+   "x": 148,
+   "y": 3940,
+   "w": 1,
+   "h": 1
+  }
+ ],
+ "images": [
+  {
+   "alt": "Home",
+   "x": 14,
+   "y": 65,
+   "w": 86,
+   "h": 30
+  },
+  {
+   "alt": "Home",
+   "x": 155,
+   "y": 3899,
+   "w": 80,
+   "h": 28
+  }
+ ]
+}

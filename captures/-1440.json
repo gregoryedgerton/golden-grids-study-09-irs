@@ -1,0 +1,93 @@
+{
+ "tiles": [
+  {
+   "text": "OUR AGENCY About IRS Careers Financial a",
+   "x": 150,
+   "y": 841,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "KNOW YOUR RIGHTS Taxpayer Bill of Rights",
+   "x": 383,
+   "y": 841,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "RESOLVE AN ISSUE IRS Notices and Letters",
+   "x": 616,
+   "y": 841,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "LANGUAGES Español 中文 (简体) 中文 (繁體) 한국어 Pу",
+   "x": 848,
+   "y": 841,
+   "w": 233,
+   "h": 340
+  },
+  {
+   "text": "RELATED SITES U.S. Treasury Treasury Ins",
+   "x": 1081,
+   "y": 841,
+   "w": 209,
+   "h": 340
+  }
+ ],
+ "url": "https://www.irs.gov/payments/online-account-for-individuals%20reference-account",
+ "title": "404 | Internal Revenue Service",
+ "width": 1440,
+ "height": 1377,
+ "headings": [
+  {
+   "tag": "H2",
+   "text": "Information Menu",
+   "x": 250,
+   "y": 61,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H2",
+   "text": "Main navigation",
+   "x": 150,
+   "y": 125,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "tag": "H1",
+   "text": "Page Not Found.",
+   "x": 150,
+   "y": 346,
+   "w": 1140,
+   "h": 64
+  },
+  {
+   "tag": "H2",
+   "text": "Error 404.",
+   "x": 150,
+   "y": 445,
+   "w": 1140,
+   "h": 26
+  }
+ ],
+ "images": [
+  {
+   "alt": "Home",
+   "x": 152,
+   "y": 50,
+   "w": 103,
+   "h": 36
+  },
+  {
+   "alt": "Home",
+   "x": 150,
+   "y": 1338,
+   "w": 80,
+   "h": 28
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "tiles": [],
+ "url": "https://www.irs.gov/payments/online-account-for-individuals%20reference-account",
+ "title": "404 | Internal Revenue Service",
+ "width": 390,
+ "height": 1284,
+ "headings": [
+  {
+   "tag": "H1",
+   "text": "Page Not Found.",
+   "x": 15,
+   "y": 291,
+   "w": 360,
+   "h": 128
+  },
+  {
+   "tag": "H2",
+   "text": "Error 404.",
+   "x": 15,
+   "y": 454,
+   "w": 360,
+   "h": 26
+  }
+ ],
+ "images": [
+  {
+   "alt": "Home",
+   "x": 14,
+   "y": 66,
+   "w": 86,
+   "h": 30
+  },
+  {
+   "alt": "Home",
+   "x": 155,
+   "y": 1167,
+   "w": 80,
+   "h": 28
+  }
+ ]
+}
