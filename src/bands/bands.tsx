@@ -6,6 +6,7 @@ import { useExpandGroup } from "../lib/expand";
 import { Fact as FactBox } from "../lib/boxes";
 import { Band } from "./Band";
 import type { Fact } from "../content";
+import { Imprint, type IconName } from "../icons";
 
 /**
  * The bands. IRS.gov's modules are rows of equal cards (popular topics,
@@ -34,6 +35,7 @@ const noteFor = (v: Viewport, n: number, placement: PlacementValue, cw: boolean)
 export function FactCard({ fact, x, slotKey, tone, big }: { fact: Fact; x?: ReturnType<typeof useExpandGroup>; slotKey?: string; tone?: string; big?: boolean }) {
   return (
     <FactBox
+      imprint={fact.icon ? <Imprint name={fact.icon} /> : undefined}
       label={fact.label}
       fitClass={fact.fitClass ?? (big ? "fit--head" : "fit--title")}
       max={120}
@@ -73,6 +75,7 @@ export function HeroBand({ title, body, cta, features }: { title: string; body: 
       <Grids placement={placement} cw={cw} split={v !== "desktop"} boxes={[
         <GoldenBox key="h">
           <div className="box box--blue">
+            <Imprint name="account" />
             <p className="box__label">Individual, Business or Tax Pro Account</p>
             <div className="box__fit"><FitLine>{title}</FitLine></div>
             <div className="box__body"><p>{body}</p></div>
@@ -99,8 +102,8 @@ export function BankBand({ account, guest, numbers, title, body }: {
   const [placement, cw] = orient(v, ["left", true], ["bottom", true]);
   const card = (key: string, c: { title: string; tag?: string; sub?: string; features: string[]; accepted: string; cta: string }) => (
     <GoldenBox key={key} {...x.boxProps(key)}>
-      <FactBox label={c.tag ?? c.sub} fitClass="fit--head" max={120}
-        body={<><p className="box__body--short">{c.features[0]}. {c.accepted}.</p><ul className="box__body--long box__list">{c.features.map((f) => <li key={f}>{f}</li>)}<li><strong>{c.accepted}</strong></li></ul></>}
+      <FactBox imprint={<Imprint name={key === "account" ? "account" : "guest"} />} label={c.tag ?? c.sub} fitClass="fit--head" max={120}
+        body={<><p className="box__body--short box__body--untall">{c.features[0]}. {c.accepted}.</p><ul className="box__body--long box__body--tall box__list">{c.features.map((f) => <li key={f}>{f}</li>)}<li><strong>{c.accepted}</strong></li></ul></>}
         link={{ href: "#", label: c.cta, aria: `${c.cta} (does nothing in this study)` }}
         expand={{ group: x, slotKey: key, title: c.title, full: <div className="cell__body"><p className="cell__kicker">Key features</p><ul>{c.features.map((f) => <li key={f}>{f}</li>)}</ul><p><strong>Tax payments accepted:</strong> {c.accepted}.</p><p className="note">The control on IRS.gov signs in or opens Direct Pay; here it does nothing.</p></div> }}>
         {c.title}
@@ -116,7 +119,7 @@ export function BankBand({ account, guest, numbers, title, body }: {
 
 /** Account: the features, each heading fitted, the bullets behind More. */
 export function FeaturesBand({ id, title, lesson, features, desktop, mobile }: {
-  id: string; title: string; lesson?: string; features: { id: string; title: string; line: string; items: string[] }[]; desktop: O; mobile: O;
+  id: string; title: string; lesson?: string; features: { id: string; icon?: IconName; title: string; line: string; items: string[] }[]; desktop: O; mobile: O;
 }) {
   const v = useViewport();
   const x = useExpandGroup();
@@ -126,8 +129,8 @@ export function FeaturesBand({ id, title, lesson, features, desktop, mobile }: {
       <Grids placement={placement} cw={cw} split={v !== "desktop"} boxes={features.map((f, i) => (
         <GoldenBox key={f.id} {...x.boxProps(f.id)}>
           <span id={f.id} className="anchor" />
-          <FactBox label="In your account" fitClass={i === 0 ? "fit--head" : "fit--title"} max={120}
-            body={<><p className="box__body--short">{f.items[0]}.</p><ul className="box__body--long box__list">{f.items.map((it) => <li key={it}>{it}</li>)}</ul></>}
+          <FactBox imprint={f.icon ? <Imprint name={f.icon} /> : undefined} label="In your account" fitClass={i === 0 ? "fit--head" : "fit--title"} max={120}
+            body={<><p className="box__body--short box__body--untall">{f.items[0]}.</p><ul className="box__body--long box__body--tall box__list">{f.items.map((it) => <li key={it}>{it}</li>)}</ul></>}
             expand={{ group: x, slotKey: f.id, title: f.title, full: <div className="cell__body"><ul>{f.items.map((it) => <li key={it}>{it}</li>)}</ul></div> }}>
             {f.line}
           </FactBox>

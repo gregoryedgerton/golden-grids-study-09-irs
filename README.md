@@ -76,7 +76,7 @@ the six payment methods and which charge fees, the three options when you
 cannot pay, the eight sections of an individual's online account and their
 bullets, the home page's topics, help list and announcements. A few
 expansions add a sentence of context (what an EIN is, who sets card fees)
-in the same plain register. No photograph or illustration is used.
+in the same plain register. No photograph is used; the only drawings are the study's own icons.
 
 ## How it works
 
@@ -85,6 +85,14 @@ in the same plain register. No photograph or illustration is used.
   120px; the first in each band is the hero and carries the fuller text,
   the rest show one line of body and open the whole list with More. Where
   the reference has a link, the square has one (Payments, In your account).
+- Behind each square's text sits a large faint line icon drawn for the
+  study ([`src/icons.tsx`](src/icons.tsx), one per topic: a bank, a card, a
+  clock, a folder, a key, a bell), the reference's small card icon made the
+  card's ground; it is decorative and clipped by the box, and hidden in a
+  square under 90px.
+- Body copy appears from 200px of height, the fuller passage from 320px,
+  and a list of bullets from 400px, so a hero square carries the
+  reference's whole list and a small square its first line.
 - Controls that would sign in, pay or download say so and do nothing.
 - Light is the reference's; dark is the study's, the same values turned
   over, by device preference.

@@ -127,6 +127,11 @@ main { min-width: 0; }
   background: var(--card-2); border: 1px solid var(--line); border-radius: var(--radius);
   color: var(--ink-soft);
 }
+.box > :not(.box__imprint) { position: relative; z-index: 1; }
+.box__imprint { position: absolute; right: -8%; bottom: -10%; width: 72%; height: 72%; color: var(--ink); opacity: 0.07; z-index: 0; pointer-events: none; }
+@media (prefers-color-scheme: dark) { .box__imprint { opacity: 0.12; } }
+.box--blue .box__imprint { color: #fff; opacity: 0.16; }
+@container (max-width: 90px) or (max-height: 90px) { .box__imprint { display: none; } }
 .box--blue { background: var(--navy); color: #fff; border-color: var(--navy); }
 .box--blue .box__label, .box--blue .fit, .box--blue .box__body, .box--blue .box__source { color: inherit; }
 .box__label { margin: 0 0 0.4em; font: 600 clamp(0.7rem, 4cqmin, 0.9rem)/1.3 var(--font); letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); overflow-wrap: anywhere; }
@@ -136,16 +141,19 @@ main { min-width: 0; }
 .fit--title { color: var(--blue-ink); }
 .fit--head { letter-spacing: -0.02em; }
 .box--blue .fit { color: #fff; }
-.box__body { margin: 0.5em 0 0; font-size: clamp(0.9rem, 5cqmin, 1.1rem); line-height: 1.45; max-width: var(--measure); flex: 0 0 auto; color: var(--ink-soft); }
+.box__body { margin: 0.5em 0 0; font-size: clamp(0.9rem, 4.6cqmin, 1.05rem); line-height: 1.45; max-width: var(--measure); flex: 0 0 auto; color: var(--ink-soft); }
 .box__body p { margin: 0 0 0.5em; } .box__body p:last-child { margin-bottom: 0; }
 .box__list { margin: 0; padding-left: 1.1em; } .box__list li { margin: 0 0 0.3em; }
 .box__foot { margin-top: auto; padding-top: 0.5em; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.3em 1em; align-items: baseline; font-size: clamp(0.75rem, 4cqmin, 0.95rem); }
 .box__source { color: var(--muted); overflow-wrap: anywhere; min-width: 0; }
 .more { min-height: 24px; font: 700 1em/1 var(--font); color: var(--blue-ink); background: transparent; border: 0; padding: 0.3em 0; cursor: pointer; text-decoration: underline; }
 .more--link { text-decoration: underline; }
-@container (max-height: 300px) { .box__body { display: none; } }
-@container (max-height: 440px) { .box__body--long { display: none; } }
-@container (min-height: 440.1px) { .box__body--short { display: none; } }
+@container (max-height: 200px) { .box__body { display: none; } }
+@container (max-height: 320px) { .box__body--long { display: none; } }
+@container (min-height: 320.1px) { .box__body--short:not(.box__body--untall) { display: none; } }
+/* A list of bullets needs more room than a sentence: it appears only in a tall square. */
+@container (max-height: 400px) { .box__body--tall { display: none; } }
+@container (min-height: 400.1px) { .box__body--untall { display: none; } }
 @container (max-width: 110px) or (max-height: 90px) { .box__body, .box__foot, .box__source { display: none; } }
 @container (max-width: 64px) or (max-height: 64px) { .box__label { display: none; } }
 
