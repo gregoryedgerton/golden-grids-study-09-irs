@@ -33,13 +33,9 @@ Source Sans Pro at 16px/24px in `#1b1b1b`, link blue `#00599c`, brand
 | 390px | ![](captures/reference-home-390.png) ![](captures/study-index-390.png) | ![](captures/reference-payments-390.png) ![](captures/study-payments-390.png) | ![](captures/reference-account-390.png) ![](captures/study-account-390.png) |
 | 1440px | ![](captures/reference-home-1440.png) ![](captures/study-index-1440.png) | ![](captures/reference-payments-1440.png) ![](captures/study-payments-1440.png) | ![](captures/reference-account-1440.png) ![](captures/study-account-1440.png) |
 
-## The claim
+## Approach
 
-A government service page is a list of equal cards and equal headings
-because it cannot know which one a visitor needs; a golden grid makes the
-same list a hierarchy, the first item in the hero square with its full
-text, the rest in descending squares with their headings set to fit, and
-the bullets one More away.
+The reference presents its topics, payment methods and account features as rows of equal cards and columns of equal headings. The study sets each row as one grid, with the first item in the largest square carrying its full text and the rest in descending squares with their lists one step away. Which item comes first follows the reference's own order.
 
 ## The pages
 
@@ -101,18 +97,21 @@ in the same plain register. No photograph is used; the only drawings are the stu
   under 12px, axe (WCAG 2.0/2.1/2.2 A/AA, best practice) clean with a More
   open. No screen-reader user has tested it.
 
-## What did not
+## Notes for review
 
-- The home hero shares its row with the app card, so at 1440 its five-grid
-  is 749px wide and the four feature squares are small; the reference's
-  hero is a two-column promo, not a grid, and reads calmer.
-- The Help & contact module rebuilds the Individuals tab only; the
-  reference has a list for each of five audiences.
-- The reference's left navigation and footer link to dozens of pages this
-  study does not have; they are shown as text, not dead links.
-- Equal cards are what a government site chooses for a reason; ranking
-  "Bank account" over "Cash" by size is the study's editorial decision, and
-  the README says so.
+Observations for whoever reviews this study, recorded without a verdict. Whether the layout suits the page is assessed separately, after every study has been reviewed.
+
+- **Home hero.** It shares a row with the app card, so at 1440 its five-square grid is 749px wide; the reference's hero is a two-column promotion.
+- **Help and contact.** Only the Individuals list is rebuilt; the reference has one for each of five audiences.
+- **Navigation.** The reference's left navigation and footer link to pages this study does not have; those items are shown as text.
+- **Order as size.** The reference draws "Bank account" and "Cash" at one size; here the first is larger because it comes first.
+
+## Disclosure
+
+Every page says what it is in three places, all read from
+[`src/study.json`](src/study.json): its title and description, a sticky notice
+at the top, and a disclosure at the very end listing the pages reviewed, what
+is real, what is invented or changed, and where each kind of asset came from.
 
 ## Study tools
 
