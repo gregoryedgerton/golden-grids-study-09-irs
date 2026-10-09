@@ -1,0 +1,62 @@
+{
+  "number": "09",
+  "name": "IRS.gov",
+  "notice": "A layout study, not IRS.gov and not a government website: three IRS pages rebuilt with Golden Grids by GIFcommit. Not affiliated with the IRS; nothing here signs in, files or pays.",
+  "pages": {
+    "account": "Online account for individuals",
+    "index": "Home",
+    "payments": "Make a payment"
+  },
+  "summary": "Three pages of IRS.gov (the home page, Make a payment, and Online account for individuals) rebuilt as stacked golden grids. The words are the IRS's; the site around them is not.",
+  "reviewed": {
+    "date": "October 7, 2026",
+    "method": "Captured at 390, 820 and 1440 pixels, with each page's main text saved alongside. The IRS's own last-reviewed dates are printed on the pages that carry them.",
+    "pages": [
+      {
+        "label": "IRS.gov, home page",
+        "url": "https://www.irs.gov/"
+      },
+      {
+        "label": "IRS.gov, Make a payment",
+        "url": "https://www.irs.gov/payments"
+      },
+      {
+        "label": "IRS.gov, Online account for individuals",
+        "url": "https://www.irs.gov/payments/online-account-for-individuals"
+      }
+    ]
+  },
+  "real": [
+    "The text. It is the Internal Revenue Service's, a work of the United States government in the public domain (17 U.S.C. § 105), shortened and rearranged but not reworded in substance.",
+    "The limits, fees and dates, as those pages gave them on the day they were captured. They may have changed; check IRS.gov."
+  ],
+  "invented": [
+    "The site. GIFcommit is not an agency, and this is not a government website.",
+    "Every control. Nothing here signs anyone in, files a return, makes a payment or downloads a form.",
+    "The icons, which were drawn for the study. No IRS seal, logo or mark is used."
+  ],
+  "assets": [
+    {
+      "what": "Text",
+      "source": "Internal Revenue Service, IRS.gov",
+      "url": "https://www.irs.gov/",
+      "licence": "public domain, U.S. government work"
+    },
+    {
+      "what": "Icons",
+      "source": "Drawn for the study."
+    },
+    {
+      "what": "Typeface",
+      "source": "Source Sans 3",
+      "licence": "SIL Open Font License"
+    },
+    {
+      "what": "Photographs",
+      "source": "None are used."
+    }
+  ],
+  "owner": "the Internal Revenue Service, the Department of the Treasury or any government agency",
+  "repo": "https://github.com/gregoryedgerton/golden-grids-study-09-irs",
+  "updated": "October 9, 2026"
+}

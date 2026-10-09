@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Tools } from "./tools";
-import { NAV, UTILITY, FOOTER, SOURCE, CAPTURED } from "../content";
+import { StudyBanner, StudyDisclosure } from "./study";
+import { NAV, UTILITY, FOOTER } from "../content";
 
 /**
  * The shell, after IRS.gov's: a thin banner, a dark-blue brand bar with
@@ -13,8 +14,8 @@ export function Page({ current, crumbs, side, sideTitle, children }: { current: 
   return (
     <>
       <a className="skip" href="#content">Skip to content</a>
+      <StudyBanner />
       <Tools />
-      <aside className="gov" aria-label="About this site"><p>A layout study by GIFcommit of three pages of IRS.gov. <strong>Not a government website</strong>; nothing here signs in or pays.</p></aside>
       <header className="brand">
         <div className="wrap brand__row">
           <a className="wordmark" href="./index.html"><span className="wordmark__mark" aria-hidden="true">G</span>GIFcommit</a>
@@ -42,18 +43,8 @@ export function Page({ current, crumbs, side, sideTitle, children }: { current: 
         <div className="wrap foot__cols">
           {FOOTER.map(([title, items]) => <section key={title} aria-labelledby={`f-${title}`}><h2 id={`f-${title}`}>{title}</h2><ul>{items.map((i) => <li key={i}>{i}</li>)}</ul></section>)}
         </div>
-        <div className="wrap colophon">
-          <p>
-            A layout study of three pages of <a href={SOURCE.home.url}>IRS.gov</a> — the <a href={SOURCE.home.url}>home page</a>,{" "}
-            <a href={SOURCE.payments.url}>Make a payment</a> and <a href={SOURCE.account.url}>Online account for individuals</a> — as captured on {CAPTURED}.
-            The text is the Internal Revenue Service's, a work of the United States government in the public domain (17 U.S.C. §105), shortened and
-            rearranged; the pages say when the IRS last reviewed them. GIFcommit is a layout-study brand, not an agency: this is not a government
-            website, no control here signs anyone in or makes a payment, and nothing of the IRS's design, seal or marks is reproduced. Built with{" "}
-            <a href="https://github.com/gregoryedgerton/golden-grids">Golden Grids</a> · <a href="https://www.npmjs.com/package/@gifcommit/golden-grids">npm</a> ·{" "}
-            <a href="https://gregoryedgerton.github.io/golden-grids/">generator</a>.
-          </p>
-        </div>
       </footer>
+      <StudyDisclosure />
     </>
   );
 }
