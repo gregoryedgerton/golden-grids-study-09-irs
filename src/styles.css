@@ -219,3 +219,5 @@ main { min-width: 0; }
   --cta2-color: var(--blue-ink); --cta2-bg: transparent; --cta2-border: 2px solid var(--blue); --cta2-radius: 4px;
   --cta2-hover-bg: color-mix(in srgb, var(--blue) 12%, transparent);
 }
+/* The reference's own onward links, kept as words: nothing on the page leaves for IRS.gov. */
+.showonly { font-weight: 600; }

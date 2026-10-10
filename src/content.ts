@@ -145,7 +145,7 @@ export const ACCOUNT: {
   asides: [
     { label: "Need to pay?", line: "Need to\npay?", icon: "pay", body: "See your payment options.", long: "By bank account, card, wallet, wire, check or cash; most are free from a bank account.", href: "./payments.html", cta: "Payment options" },
     { label: "What if I can't pay?", line: "Can't\npay?", icon: "less", body: "Check if you can settle your debt for less than you owe with an offer in compromise.", long: "Or set up a payment plan, or ask for collection to be delayed.", href: "./payments.html#cant", cta: "Offer in compromise" },
-    { label: "What if I don't pay?", line: "Don't\npay?", icon: "alert", body: "The IRS can take certain actions to collect unpaid taxes.", long: "Notices and bills come first, with penalties and interest; liens and levies follow if the debt is not resolved.", href: "https://www.irs.gov/payments/online-account-for-individuals", cta: "Collection, on IRS.gov" },
+    { label: "What if I don't pay?", line: "Don't\npay?", icon: "alert", body: "The IRS can take certain actions to collect unpaid taxes.", long: "Notices and bills come first, with penalties and interest; liens and levies follow if the debt is not resolved." },
   ] as Fact[],
   other: {
     title: "Other ways to find your account information",

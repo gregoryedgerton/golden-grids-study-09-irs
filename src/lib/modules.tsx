@@ -3,7 +3,7 @@ import { NOTICE, DEBT_HELP, HELP, HELP_TABS, HERO, PAY, ACCOUNT, SOURCE } from "
 
 /** The flat modules, as the reference has them: a notice strip, a callout, a tabbed accordion, a card, a side column, a reviewed-on line. */
 export function Notice({ title, body, link }: { title: string; body: string; link?: { label: string; url: string } }) {
-  return <aside className="notice" aria-label={title}><p><strong>{title}</strong> {body}{link && <> <a href={link.url}>{link.label}</a></>}</p></aside>;
+  return <aside className="notice" aria-label={title}><p><strong>{title}</strong> {body}{link && <> <span className="showonly">{link.label}</span></>}</p></aside>;
 }
 export const HomeNotice = () => <Notice {...NOTICE} />;
 
@@ -41,7 +41,7 @@ export function HelpContact() {
       ) : (
         <p className="note">Only the Individuals tab is rebuilt in this study; the reference has one list per audience.</p>
       )}
-      <p className="centered"><a href="https://www.irs.gov/help">Get more help on IRS.gov</a></p>
+      <p className="centered"><span className="showonly">Get more help</span></p>
     </section>
   );
 }
@@ -49,7 +49,7 @@ export function HelpContact() {
 export function Reviewed({ page }: { page: "payments" | "account" }) {
   const s = SOURCE[page];
   return (
-    <p className="reviewed"><em>Page last reviewed or updated by the IRS: {s.reviewed}</em> · <a href={s.url}>{s.label}</a> · Share · Print</p>
+    <p className="reviewed"><em>Page last reviewed or updated by the IRS: {s.reviewed}</em> · {s.label} · Share · Print</p>
   );
 }
 
@@ -91,7 +91,7 @@ export function OtherWays() {
     <section className="prose" aria-labelledby="other-title">
       <h2 id="other-title">{ACCOUNT.other.title}</h2>
       <ul>{ACCOUNT.other.items.map((i) => <li key={i}>{i}</li>)}</ul>
-      <p><a href="https://www.irs.gov/help">Find more assistance on IRS.gov.</a></p>
+      <p><span className="showonly">Find more assistance.</span></p>
     </section>
   );
 }
