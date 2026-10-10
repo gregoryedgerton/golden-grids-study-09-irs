@@ -1,6 +1,7 @@
 {
   "number": "09",
   "name": "IRS.gov",
+  "brand": "GIFrs",
   "notice": "A layout study, not IRS.gov and not a government website: three IRS pages rebuilt with Golden Grids as GIFrs, a parody name. Not affiliated with the IRS; nothing here signs in, files or pays.",
   "pages": {
     "account": "Online account for individuals",
