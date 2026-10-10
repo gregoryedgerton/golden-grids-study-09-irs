@@ -5,7 +5,7 @@ Guidance for agents working in a Golden Grids layout study.
 ## What this repo is
 
 Study 09: three pages of IRS.gov — home, Make a payment, Online account for
-individuals — rebuilt as stacked golden grids under the GIFcommit brand.
+individuals — rebuilt as stacked golden grids under the GIFrs brand.
 THREE pages (`index.html`, `payments.html`, `account.html`), Vite entries
 with plain links. `src/lib/Page.tsx` is the shell (banner, brand bar,
 navigation, breadcrumb, left navigation, footer); `src/bands/bands.tsx` the
@@ -152,7 +152,7 @@ README: the smallest line, and that no screen-reader user has tested it.
   phone numbers; check any claim against `captures/reference-*.txt`; link
   each page where its text appears and print the IRS's reviewed-on date.
 - NOT a government website, and it must never look like one: the banner at
-  the top says so on every page; the brand is GIFcommit; no IRS seal, logo
+  the top says so on every page; the brand is GIFrs; no IRS seal, logo
   or mark; no control signs in, pays, downloads or submits, and each such
   control says so where it stands.
 - Each band's first item is the hero and carries the reference's fuller
@@ -201,6 +201,18 @@ Two geometry rules, verified against source, that every band relies on:
   reviewed by people. (Greg, 2026-10-09.)
 - **Favicon**: `public/favicon.svg`, a 32-unit tile with 6-unit corners and one
   letter in the study's colours.
+
+## Brand
+
+- **The study's brand is a parody name**: `GIF` in capitals, then the tail of
+  the reference's name in lower case (GIFbnb, GIFspn, GIFflix, GIFrs, GIFx,
+  GIFbase, GIFmutual, GIFn'now, GIFbell, GIFipedia). Do not use GIFcommit as
+  a service's name; it is only the npm scope of the library.
+- **A play on the reference's premium tier or named service carries the
+  parody name and keeps the alteration**: GIFspn+, GIFbase One, GIFx Premium.
+- Write the name exactly so; never change its case in CSS. The notice in
+  `src/study.json` says it is a parody name, and the disclosure lists it
+  under what is invented. (Greg, 2026-10-09.)
 
 ## API facts, verified against 5.0.0 source
 
