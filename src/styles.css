@@ -1,4 +1,4 @@
-/* Study 09 — three pages of IRS.gov, under the GIFrs brand. The register
+/* Study 09 — three pages of IRS.gov, under the GIF.gov brand. The register
    is the reference's, from measurement (captures/tokens.json): the U.S. Web
    Design System as IRS.gov applies it — Source Sans Pro (Source Sans 3 here)
    at 16px/24px in #1b1b1b, link blue #00599c, the dark blue #002d62 brand
@@ -67,7 +67,6 @@ a { color: var(--blue-ink); }
 .brand { background: var(--navy); color: #fff; }
 .brand__row { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 60px; }
 .wordmark { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font: 700 22px/1 var(--font); letter-spacing: -0.01em; color: #fff; text-decoration: none; }
-.wordmark__mark { display: inline-grid; place-items: center; width: 32px; height: 32px; border-radius: 6px; background: #fff; color: var(--navy); font-weight: 800; }
 .utility { margin: 0; padding: 0; list-style: none; display: none; gap: 0; font-size: 14px; }
 .utility li { padding: 0 12px; border-left: 1px solid rgba(255, 255, 255, 0.35); }
 .utility li:first-child { border-left: 0; }

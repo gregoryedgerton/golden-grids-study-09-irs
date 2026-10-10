@@ -4,7 +4,7 @@
  * hold each page's main text). The text is the IRS's own and is in the
  * public domain as a work of the United States government (17 U.S.C. §105);
  * it is used here shortened and rearranged, each page linked where it
- * appears. The shell is GIFrs's, a layout study's, and says so: this
+ * appears. The shell is GIF.gov's, a layout study's, and says so: this
  * is not a government website, nothing here signs anyone in, and no
  * payment can be made.
  */

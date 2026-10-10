@@ -18,7 +18,7 @@ export function Page({ current, crumbs, side, sideTitle, children }: { current: 
       <Tools />
       <header className="brand">
         <div className="wrap brand__row">
-          <a className="wordmark" href="./index.html"><span className="wordmark__mark" aria-hidden="true">G</span>GIFrs</a>
+          <a className="wordmark" href="./index.html">GIF.gov</a>
           <ul className="utility">{UTILITY.map((u) => <li key={u}><span>{u}</span></li>)}</ul>
         </div>
         <nav className="nav" aria-label="Primary">

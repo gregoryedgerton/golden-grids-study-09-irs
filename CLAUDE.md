@@ -5,7 +5,7 @@ Guidance for agents working in a Golden Grids layout study.
 ## What this repo is
 
 Study 09: three pages of IRS.gov — home, Make a payment, Online account for
-individuals — rebuilt as stacked golden grids under the GIFrs brand.
+individuals — rebuilt as stacked golden grids under the GIF.gov brand.
 THREE pages (`index.html`, `payments.html`, `account.html`), Vite entries
 with plain links. `src/lib/Page.tsx` is the shell (banner, brand bar,
 navigation, breadcrumb, left navigation, footer); `src/bands/bands.tsx` the
@@ -152,7 +152,7 @@ README: the smallest line, and that no screen-reader user has tested it.
   phone numbers; check any claim against `captures/reference-*.txt`; link
   each page where its text appears and print the IRS's reviewed-on date.
 - NOT a government website, and it must never look like one: the banner at
-  the top says so on every page; the brand is GIFrs; no IRS seal, logo
+  the top says so on every page; the brand is GIF.gov; no IRS seal, logo
   or mark; no control signs in, pays, downloads or submits, and each such
   control says so where it stands.
 - Each band's first item is the hero and carries the reference's fuller
@@ -210,7 +210,7 @@ Two geometry rules, verified against source, that every band relies on:
 ## Brand
 
 - **The study's brand is a parody name**: `GIF` in capitals, then the tail of
-  the reference's name in lower case (GIFbnb, GIFspn, GIFflix, GIFrs, GIFx,
+  the reference's name in lower case (GIFbnb, GIFspn, GIFflix, GIF.gov, GIFx,
   GIFbase, GIFmutual, GIFn'now, GIFbell, GIFipedia, GIFify, GIFmilk Records).
   Do not use GIFcommit as
   a service's name; it is only the npm scope of the library.

@@ -12,7 +12,7 @@ export function AppCard() {
     <section className="card card--app" aria-labelledby="app-title">
       <h2 id="app-title">{HERO.app.title}</h2>
       <p>{HERO.app.body}</p>
-      <div className="card__phone" aria-hidden="true"><span>GIFrs</span><span className="card__phone-btn">Sign in to your account</span><span className="card__phone-btn card__phone-btn--ghost">Continue as guest</span></div>
+      <div className="card__phone" aria-hidden="true"><span>GIF.gov</span><span className="card__phone-btn">Sign in to your account</span><span className="card__phone-btn card__phone-btn--ghost">Continue as guest</span></div>
       <button type="button" className="btn btn--ghost">{HERO.app.cta}</button>
       <p className="note">A fictional app for a layout study; the button does nothing.</p>
     </section>

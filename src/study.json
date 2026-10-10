@@ -1,8 +1,8 @@
 {
   "number": "09",
   "name": "IRS.gov",
-  "brand": "GIFrs",
-  "notice": "A layout study, not IRS.gov and not a government website: three IRS pages rebuilt with Golden Grids as GIFrs, a parody name. Not affiliated with the IRS; nothing here signs in, files or pays.",
+  "brand": "GIF.gov",
+  "notice": "A layout study, not IRS.gov and not a government website: three IRS pages rebuilt with Golden Grids as GIF.gov, a parody name for the site. Not affiliated with the IRS; nothing here signs in, files or pays.",
   "pages": {
     "account": "Online account for individuals",
     "index": "Home",
@@ -32,7 +32,7 @@
     "The limits, fees and dates, as those pages gave them on the day they were captured. They may have changed; check IRS.gov."
   ],
   "invented": [
-    "The site. GIFrs is a parody name made for this study; it is not an agency, and this is not a government website.",
+    "The site. GIF.gov is a parody name made for this study; it is not an agency, and this is not a government website.",
     "Every control. Nothing here signs anyone in, files a return, makes a payment or downloads a form.",
     "The icons, which were drawn for the study. No IRS seal, logo or mark is used."
   ],
